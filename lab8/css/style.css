@@ -1,0 +1,42 @@
+* {
+    font-family: Areal;   
+}
+
+
+.popup_container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.popup_content{
+    position: absolute;
+    max-width: 220px;
+    max-height: 120px;
+    top: 0;
+    right: 0;
+   
+    left: 0;
+    margin: auto;
+}
+
+.popup_content form{
+    display: flex;
+}
+.no-scroll {
+    overflow-y: hidden;
+}
+
+
+#hide{
+    position: relative;
+    left: 195px;
+}
+
+#close_bt{
+    max-width: 15px;
+}

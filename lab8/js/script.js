@@ -3,7 +3,7 @@ $("#show").click(function (e) {
     $(".popup_container").fadeIn(450);
     // window.history.pushState({ page: 1 }, "titel1", "index.html")
 
-    window.history.pushState({ page: 2 }, "titel2", "new_url.html")
+    window.history.pushState({ page: 2 }, "title", "new_form_url.html")
     console.log(window.history.length);
 
 });
@@ -42,10 +42,10 @@ $(function () {
 
                 if (response.status == "success") {
 
-                    alert("мы получили вашу заявку");
+                    alert("Заявка принята!");
                 } else {
 
-                    alert("произошла ошибка при отпровлении: " + response.message);
+                    alert("Произошла ошибка при отправлении: " + response.message);
                 }
                 hidePopup();
             }

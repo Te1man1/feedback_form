@@ -1,4 +1,4 @@
-# https://te1man1.github.io/laba8/lab8/
+# https://te1man1.github.io/feedback_form/lab8/
 # Учебное задание: форма обратной связи
 # При отображении попапа меняется URL страницы
 # с помощью History API
